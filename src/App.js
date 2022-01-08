@@ -1,10 +1,11 @@
 import './App.css';
+import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className='App'>
-      <p>hello world</p>
-    </div>
+    <section className='section'>
+      <Skills />
+    </section>
   );
 }
 

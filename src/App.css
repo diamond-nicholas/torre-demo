@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  height: 1024px;
+  width: 480px;
+  border: 1px solid #ccc;
+}
