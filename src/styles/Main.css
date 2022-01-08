@@ -1,0 +1,36 @@
+.about .aboutName {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.about .aboutImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  /* height: 150px;
+  width: 150px; */
+}
+
+.about .aboutJob {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  padding-left: 20px;
+}
+
+.about .aboutLocation {
+  color: #6d6f71;
+  font-weight: 150;
+  padding-left: 20px;
+}
+
+.about .aboutSummary {
+  color: #6d6f71;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 25px;
+}
