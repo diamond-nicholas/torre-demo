@@ -57,6 +57,23 @@ const SkillDetails = () => {
             </aside>
           </div>
         </article>
+        <article className='otherCard'>
+          <div className='card-left'>
+            <img src='images/img.jpg' alt='' width={40} height={40} />
+            <aside className='name'>
+              <div className='top'>
+                <p>Khan Yu</p>
+                <StarIcon />
+              </div>
+              <div className='bottom'>Web developer</div>
+            </aside>
+          </div>
+          <div className='card-right'>
+            <aside className='eye'>
+              <EyeIcon />
+            </aside>
+          </div>
+        </article>
       </section>
     </div>
   );

@@ -13,6 +13,7 @@
 
 .group {
   margin-bottom: 20px;
+  line-height: 5px;
 }
 
 .group-top {
@@ -100,6 +101,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .others .otherCard .card-left {
