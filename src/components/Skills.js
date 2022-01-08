@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/Skills.css';
+import Navbar from './Navbar';
 
 const Skills = () => {
   return (
     <div>
-      <h1>hello world</h1>
+      <Navbar />
     </div>
   );
 };
