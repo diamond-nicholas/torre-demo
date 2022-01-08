@@ -33,6 +33,14 @@ const Main = () => {
           <RidingIcon />
           <p>Master / Influencer</p>
         </div>
+        <article className='skillBtn'>
+          <button>Software development</button>
+          <button>Team management</button>
+          <button>javaScript</button>
+          <button>Git</button>
+          <button>Typescript</button>
+          <button>REST API</button>
+        </article>
       </section>
     </div>
   );
