@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../styles/SkillDetails.css';
+import CloseIcon from '../vectors/CloseIcon';
 import EyeIcon from '../vectors/EyeIcon';
 import RidingIcon from '../vectors/RidingIcon';
 import StarIcon from '../vectors/StarIcon';
-import axios from 'axios';
+import { Link } from 'react-router-dom';
+// import axios from 'axios';
 
 const SkillDetails = () => {
   // const [bio, setBio] = useState([]);
@@ -11,7 +13,7 @@ const SkillDetails = () => {
 
   // const getBio = async () => {
   //   try {
-  //     const res = await axios.get('https://torre.bio/api/bios/$username');
+  //     const res = await axios.get('https://torre.bio/api/bios/diamondnicholas154');
   //     setBio(res.data);
   //   } catch (error) {
   //     setError(error.message, 'something wrong with this request');
@@ -29,7 +31,13 @@ const SkillDetails = () => {
   return (
     <div className='skilldetails'>
       <nav className='nav-details'>
+        <div className='close'>
+          <Link to='/'>
+            <CloseIcon />
+          </Link>
+        </div>
         <h3>Software development</h3>
+        <h4 className='hide'>invinsible</h4>
       </nav>
       <section className='group'>
         <div className='group-top'>

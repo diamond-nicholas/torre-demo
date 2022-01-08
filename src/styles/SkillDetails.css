@@ -3,12 +3,19 @@
   padding-right: 20px;
 }
 .nav-details {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   color: #d0d0d1;
   border-bottom: 1px solid gray;
   margin-bottom: 30px;
+}
+
+.nav-details .hide {
+  visibility: hidden;
 }
 
 .group {
