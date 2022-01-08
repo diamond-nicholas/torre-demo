@@ -84,3 +84,49 @@
 .founding .foundingHeader {
   color: rgba(205, 220, 57, 1);
 }
+
+.others {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #d0d0d1;
+  margin-bottom: 30px;
+}
+
+.others .otherHeader {
+  color: #6d6f71;
+}
+
+.others .otherCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.others .otherCard .card-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.others .otherCard .card-left .name {
+  line-height: 5px;
+  padding-left: 15px;
+}
+
+.others .otherCard .card-left .name .top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.others .otherCard .card-left .name .top p {
+  color: rgba(205, 220, 57, 1);
+  padding-right: 10px;
+}
+
+.card-right {
+  border-radius: 100%;
+  background-color: rgba(53, 55, 59, 0);
+  padding: 3.5px;
+  padding-bottom: 0.1px;
+}

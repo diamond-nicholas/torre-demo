@@ -42,7 +42,7 @@ const SkillDetails = () => {
         <h4 className='otherHeader'>Other people with this skill:</h4>
         <article className='otherCard'>
           <div className='card-left'>
-            <img src='images/img.jpg' alt='' />
+            <img src='images/img.jpg' alt='' width={40} height={40} />
             <aside className='name'>
               <div className='top'>
                 <p>Khan Yu</p>
