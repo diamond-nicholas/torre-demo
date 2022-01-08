@@ -1,0 +1,55 @@
+.skilldetails {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-details {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #d0d0d1;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.group-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #d0d0d1;
+}
+
+.group-top p {
+  padding-right: 10px;
+}
+
+.group-top .aside p {
+  padding-right: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.aside {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.aside p {
+  padding-left: 10px;
+}
+
+.group-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.group-bottom .firstP {
+  padding-right: 10px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #d0d0d1;
+}
