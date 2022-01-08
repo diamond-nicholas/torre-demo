@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Main.css';
 import Proficient from '../vectors/Proficient';
 import RidingIcon from '../vectors/RidingIcon';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -35,7 +36,9 @@ const Main = () => {
           <p>Master / Influencer</p>
         </div>
         <article className='skillBtn'>
-          <button>Software dev</button>
+          <Link to='/details'>
+            <button>Software dev</button>
+          </Link>
           <button>Team management</button>
           <button>javaScript</button>
           <button>Git</button>

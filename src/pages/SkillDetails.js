@@ -1,10 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/SkillDetails.css';
 import EyeIcon from '../vectors/EyeIcon';
 import RidingIcon from '../vectors/RidingIcon';
 import StarIcon from '../vectors/StarIcon';
+import axios from 'axios';
 
 const SkillDetails = () => {
+  // const [bio, setBio] = useState([]);
+  // const [error, setError] = useState('');
+
+  // const getBio = async () => {
+  //   try {
+  //     const res = await axios.get('https://torre.bio/api/bios/$username');
+  //     setBio(res.data);
+  //   } catch (error) {
+  //     setError(error.message, 'something wrong with this request');
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   getBio();
+  // }, []);
+  // console.log('====================================');
+  // console.log(bio);
+  // console.log('====================================');
+  // if (error) return <h1>{error}</h1>;
+
   return (
     <div className='skilldetails'>
       <nav className='nav-details'>
