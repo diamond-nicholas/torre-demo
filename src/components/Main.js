@@ -44,8 +44,18 @@ const Main = () => {
         </article>
       </section>
       <section className='proficient'>
-        <h3 className='proficientHeader'>Proficient</h3>
-        <Proficient />
+        <div className='proficientFlex'>
+          <Proficient />
+          <p>Proficient</p>
+        </div>
+        <article className='proficientBtn'>
+          <button>Unit Testing</button>
+          <button>Data analysis</button>
+          <button>Functional programming</button>
+          <button>Reactive programming</button>
+          <button>Kotlin</button>
+          <button>Interface design</button>
+        </article>
       </section>
     </div>
   );
