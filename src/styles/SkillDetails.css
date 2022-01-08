@@ -11,6 +11,10 @@
   margin-bottom: 30px;
 }
 
+.group {
+  margin-bottom: 20px;
+}
+
 .group-top {
   display: flex;
   justify-content: flex-start;
@@ -52,4 +56,31 @@
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   color: #d0d0d1;
+}
+
+.br {
+  border-bottom: 1px solid #6d6f71;
+}
+
+.experience {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #d0d0d1;
+}
+
+.experience .expHeader {
+  color: #6d6f71;
+}
+
+.founding {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #6d6f71;
+  line-height: 8px;
+  margin-bottom: 30px;
+}
+
+.founding .foundingHeader {
+  color: rgba(205, 220, 57, 1);
 }

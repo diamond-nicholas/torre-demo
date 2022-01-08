@@ -21,6 +21,20 @@ const SkillDetails = () => {
           <p>7</p>
         </article>
       </section>
+      <div className='br' />
+      <section className='experience'>
+        <h4 className='expHeader'>Diamond's related experiences.</h4>
+        <article className='founding'>
+          <h4 className='foundingHeader'>Founding Member and Tech Lead</h4>
+          <p>The Executive Company</p>
+          <p>Feb 2015 - Dec 2017</p>
+        </article>
+        <article className='founding'>
+          <h4 className='foundingHeader'>Founding Member and Tech Lead</h4>
+          <p>The Executive Company</p>
+          <p>Feb 2015 - Dec 2017</p>
+        </article>
+      </section>
     </div>
   );
 };
