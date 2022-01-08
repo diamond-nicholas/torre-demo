@@ -57,6 +57,11 @@ const Main = () => {
           <button>Interface design</button>
         </article>
       </section>
+      <div className='br' />
+      <section className='interest'>
+        <p className='interestParagragh'>Industries and sectors of interest:</p>
+        <button>Open to any industry/sector</button>
+      </section>
     </div>
   );
 };

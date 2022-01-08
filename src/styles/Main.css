@@ -36,7 +36,8 @@
 }
 
 .skills,
-.proficient {
+.proficient,
+.interest {
   margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -71,6 +72,23 @@
   color: #d0d0d1;
   background-color: #383b40;
   padding: 12px 0px 12px 0px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid #383b40;
+}
+
+.br {
+  border-bottom: 1px solid #d0d0d1;
+}
+
+.interestParagragh {
+  font-size: 14px;
+  font-weight: 600;
+}
+.interest button {
+  color: #d0d0d1;
+  background-color: #383b40;
+  padding: 12px 10px 12px 10px;
   margin: 5px;
   border-radius: 20px;
   border: 1px solid #383b40;
