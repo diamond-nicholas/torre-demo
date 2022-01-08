@@ -62,6 +62,12 @@ const Main = () => {
         <p className='interestParagragh'>Industries and sectors of interest:</p>
         <button>Open to any industry/sector</button>
       </section>
+      <div className='br' />
+      <section className='languages'>
+        <p className='langHeader'>Languages:</p>
+        <button>Spanish - Conversational</button>
+        <button>English - Fully Fluent</button>
+      </section>
     </div>
   );
 };
