@@ -35,7 +35,8 @@
   line-height: 25px;
 }
 
-.skills {
+.skills,
+.proficient {
   margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -43,24 +44,28 @@
   font-family: 'Poppins', sans-serif;
   color: #d0d0d1;
 }
-.skillFlex {
+.skillFlex,
+.proficientFlex {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.skillFlex p {
+.skillFlex p,
+.proficient p {
   padding-left: 10px;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
 }
 
-.skillBtn {
+.skillBtn,
+.proficientBtn {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
-.skillBtn button {
+.skillBtn button,
+.proficientBtn button {
   flex: 1 0 31%;
   align-items: center;
   color: #d0d0d1;

@@ -35,7 +35,7 @@ const Main = () => {
           <p>Master / Influencer</p>
         </div>
         <article className='skillBtn'>
-          <button>Software development</button>
+          <button>Software dev</button>
           <button>Team management</button>
           <button>javaScript</button>
           <button>Git</button>
@@ -49,10 +49,10 @@ const Main = () => {
           <p>Proficient</p>
         </div>
         <article className='proficientBtn'>
-          <button>Unit Testing</button>
-          <button>Data analysis</button>
-          <button>Functional programming</button>
-          <button>Reactive programming</button>
+          <button>Testing</button>
+          <button>Data</button>
+          <button>Functional</button>
+          <button>Reactive</button>
           <button>Kotlin</button>
           <button>Interface design</button>
         </article>
