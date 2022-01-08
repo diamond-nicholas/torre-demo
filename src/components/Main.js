@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Main.css';
+import Proficient from '../vectors/Proficient';
 import RidingIcon from '../vectors/RidingIcon';
 
 const Main = () => {
@@ -41,6 +42,10 @@ const Main = () => {
           <button>Typescript</button>
           <button>REST API</button>
         </article>
+      </section>
+      <section className='proficient'>
+        <h3 className='proficientHeader'>Proficient</h3>
+        <Proficient />
       </section>
     </div>
   );
