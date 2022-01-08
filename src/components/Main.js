@@ -29,7 +29,7 @@ const Main = () => {
       </section>
       <section className='skills'>
         <h3 className='skillHeader'>Skills and interest:</h3>
-        <div>
+        <div className='skillFlex'>
           <RidingIcon />
           <p>Master / Influencer</p>
         </div>

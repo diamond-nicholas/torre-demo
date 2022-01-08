@@ -36,9 +36,20 @@
 }
 
 .skills {
+  margin-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 12px;
   font-family: 'Poppins', sans-serif;
   color: #d0d0d1;
+}
+.skillFlex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skillFlex p {
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
 }
