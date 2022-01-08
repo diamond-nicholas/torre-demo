@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Main.css';
+import RidingIcon from '../vectors/RidingIcon';
 
 const Main = () => {
   return (
@@ -25,6 +26,13 @@ const Main = () => {
           competencies in Procurement and Logistics Processes, Management,
           Telecommunication, Network Operations and Development.
         </p>
+      </section>
+      <section className='skills'>
+        <h3 className='skillHeader'>Skills and interest:</h3>
+        <div>
+          <RidingIcon />
+          <p>Master / Influencer</p>
+        </div>
       </section>
     </div>
   );

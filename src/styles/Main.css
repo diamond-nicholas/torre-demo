@@ -34,3 +34,11 @@
   padding-right: 20px;
   line-height: 25px;
 }
+
+.skills {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: #d0d0d1;
+}
