@@ -2,6 +2,7 @@
   "name": "torre-demo",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://bio.torre.co/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -10,7 +11,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0-next.60",
     "web-vitals": "^2.1.3"
   },
   "scripts": {

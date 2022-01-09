@@ -1,32 +1,37 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useEffect, useState } from 'react';
 import '../styles/SkillDetails.css';
 import CloseIcon from '../vectors/CloseIcon';
 import EyeIcon from '../vectors/EyeIcon';
 import RidingIcon from '../vectors/RidingIcon';
 import StarIcon from '../vectors/StarIcon';
 import { Link } from 'react-router-dom';
-// import axios from 'axios';
+import axios from 'axios';
 
 const SkillDetails = () => {
-  // const [bio, setBio] = useState([]);
-  // const [error, setError] = useState('');
+  const [bio, setBio] = useState([]);
+  const [error, setError] = useState('');
 
-  // const getBio = async () => {
-  //   try {
-  //     const res = await axios.get('https://torre.bio/api/bios/diamondnicholas154');
-  //     setBio(res.data);
-  //   } catch (error) {
-  //     setError(error.message, 'something wrong with this request');
-  //   }
-  // };
+  const getBio = async () => {
+    const url = 'api/bios/diamondnicholas154';
+    try {
+      const res = await axios.get(url, { mode: 'cors' });
+      setBio(res);
+      console.log('====================================');
+      console.log(res);
+      console.log('====================================');
+    } catch (error) {
+      setError(error.message, 'something wrong with this request');
+    }
+  };
 
-  // useEffect(() => {
-  //   getBio();
-  // }, []);
-  // console.log('====================================');
-  // console.log(bio);
-  // console.log('====================================');
-  // if (error) return <h1>{error}</h1>;
+  useEffect(() => {
+    getBio();
+  }, []);
+  console.log('====================================');
+  console.log(bio);
+  console.log('====================================');
+  if (error) return <h1>{error}</h1>;
 
   return (
     <div className='skilldetails'>
@@ -39,9 +44,12 @@ const SkillDetails = () => {
         <h3>Software development</h3>
         <h4 className='hide'>invinsible</h4>
       </nav>
+      {/* {bio.map(({ id, pictureThumbnail, summaryOfBio }) => ( */}
       <section className='group'>
+        {/* key={id} */}
         <div className='group-top'>
           <p>Proficiency</p>
+          {/* <p>{summaryOfBio}</p> */}
           <aside className='aside'>
             <RidingIcon />
             <p>Master/Influencer</p>
@@ -52,6 +60,7 @@ const SkillDetails = () => {
           <p>7</p>
         </article>
       </section>
+      {/* ))} */}
       <div className='br' />
       <section className='experience'>
         <h4 className='expHeader'>Diamond's related experiences.</h4>

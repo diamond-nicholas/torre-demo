@@ -39,11 +39,21 @@ const Main = () => {
           <Link to='/details'>
             <button>Software dev</button>
           </Link>
-          <button>Team management</button>
-          <button>javaScript</button>
-          <button>Git</button>
-          <button>Typescript</button>
-          <button>REST API</button>
+          <Link to='/details'>
+            <button>Team management</button>
+          </Link>
+          <Link to='/details'>
+            <button>javaScript</button>
+          </Link>
+          <Link to='/details'>
+            <button>Git</button>
+          </Link>
+          <Link to='/details'>
+            <button>Typescript</button>
+          </Link>
+          <Link to='/details'>
+            <button>REST API</button>
+          </Link>
         </article>
       </section>
       <section className='proficient'>
